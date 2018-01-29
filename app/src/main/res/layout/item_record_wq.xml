@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_danmu_container"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/bg_weiquwawa"
+    android:layout_margin="5dp"
+    android:padding="10dp">
+    <CheckBox
+        android:id="@+id/checkbox_select"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/check_pay_way"
+        android:enabled="false"
+        android:button="@null"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/logo"
+        android:layout_marginLeft="40dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/zq_avator"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/zq_avator">
+        <TextView
+            android:id="@+id/zq_name"
+            android:layout_width="wrap_content"
+            android:textSize="16sp"
+            android:text="123"
+            android:layout_centerVertical="true"
+            android:textColor="@color/colorIndexFont"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="10sp"
+                android:text="@string/keduihuan"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorDanmu"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/zq_result"
+                android:layout_width="wrap_content"
+                android:textSize="10sp"
+                android:text="123"
+                android:layout_centerVertical="true"
+                android:textColor="@color/colorDanmu"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/zq_time"
+        android:layout_width="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginTop="5dp"
+        android:text="123"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorDanmu"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

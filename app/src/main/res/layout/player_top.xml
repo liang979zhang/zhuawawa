@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="10dp">
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:onClick="goBack"
+        android:src="@drawable/player_back" />
+
+    <ImageView
+        android:layout_width="121dp"
+        android:layout_height="25dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/index_top" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:onClick="goCharge">
+
+        <ImageView
+            android:id="@+id/index_top_set"
+            android:layout_width="105dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/player_balance" />
+
+        <com.shenzhaus.sz.view.StrokeTextView
+            android:id="@+id/play_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="2dp"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="5"
+            android:shadowDy="5"
+            android:shadowRadius="5"
+            android:text="123"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:innnerColor="@android:color/white"
+            app:outerColor="@color/colorIndexFont" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

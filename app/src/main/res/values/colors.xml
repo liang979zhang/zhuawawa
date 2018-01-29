@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF8BB3B</color>
+    <color name="colorPrimaryDark">#FFe4ac37</color>
+    <color name="colorAccent">#FFFF4081</color>
+    <color name="colorDivider">#cacaca</color>
+    <color name="colorMainBack">#f0eeee</color>
+    <color name="colorIndexBg">#b3e57f</color>
+    <color name="colorIndexFont">#442204</color>
+    <color name="colorDanmu">#88545454</color>
+    <color name="trans">#02494949</color>
+</resources>
