@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">神手抓娃娃</string>
+    <string name="app_name">抓娃娃</string>
     <string name="net_error">网络请求失败</string>
     <string name="device_error">机器出现故障</string>
     <string name="login_weixin">微信登录</string>
@@ -58,5 +58,5 @@
     <string name="play_yes_tips">您的手气真的是太好了，运气爆棚啊</string>
     <string name="play_zhuazhu_tips">果真不负众望，真的抓到了！</string>
     <string name="play_meizhuazhu_tips">很遗憾，真的没抓到！</string>
-    <string name="agora_appid">9a44530e5bce40eebb89daa4f07808f8</string>
+    <string name="agora_appid"></string>
 </resources>
